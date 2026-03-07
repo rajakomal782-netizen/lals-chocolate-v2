@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 1.75;
+    color: #4c4c4c;
+    font-weight: 400;
+
+
+}
+
+
+
+header{
+
+background-color: #e2f4e8;
+padding: 6px;
+}
+.number{
+display: flex;
+align-items: center;
+gap: 4px;
+margin-left: 10%;
+}
+.fa-solid{
+    color: #4c4c4c;
+}
+.paragraph {
+   
+
+    color: #4c4c4c;
+    text-align: center;
+    width: 75%;
+    margin: 0px;
+}
+.paragraph :hover{
+    color: #c9a74d;
+    transition: all 3s;
+}
+.image{
+display: flex;
+justify-content: center;
+}
+.img{
+padding-top: 5px;
+    padding-bottom: 5px;
+   text-align: center;
+}
+.icon-container{
+    display: flex;
+    justify-content: flex-end;
+  padding: 10px;
+    gap: 8px;
+    width: 90%;
+position: absolute;
+  box-sizing: border-box;
+  top: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+.fa-solid{
+  color: #969393;  
+}
+
+
+
+.naviagation{
+ 
+ border-top: 1px solid #eee;
+border-bottom: 1px solid #eee;
+padding: 20px 20px;
+ align-items: center;
+ padding-left: 11px;
+ padding-right: 11px;
+margin-inline:171px
+
+}
+
+
+.naviagation ul li{
+  float: left;
+  width: 200px;
+padding: 0px;
+text-align: center;
+margin: 0px;
+ font-weight: 400;
+    font-size: 15px;
+    white-space: nowrap;
+    
+    font-family: Montserrat, sans-serif;
+
+ 
+}
+
+
+ 
+.naviagation ul li {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #5a5a5a;
+  cursor: pointer;
+}
+
+
+
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.naviagation ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.dropdown::after {
+  font-size: 10px;
+}
+.primary-nav-item{
+
+ color: #007eb4; 
+}
+
+
+.slide {
+  position: absolute;
+  width: 95%;
+  height: 70%;
+top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  margin-bottom: 10px;
+   pointer-events: auto;
+}
+
+
+
+.slide.active {
+  
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.para{
+ margin-top: 30px;  
+  margin-bottom: 0;
+    border: 1px solid #edce87;
+  padding: 20px 0px ;
+   
+    text-align: center;
+    box-sizing:  border-box;
+   width: 80%;
+   height: 50%;
+    justify-content: center;
+    margin: 50px auto;
+  position: relative;
+  top: 500px;
+ white-space: nowrap;        
+    font: inherit;
+    vertical-align: baseline; 
+  text-overflow: ellipsis;
+  font-size: 100%
+  
+
+  }
+
+.gift-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px; /* gap between image and text */
+    padding: 8px 5%;
+    flex-wrap: wrap; /* responsive for mobile */
+  margin-top: 35%;
+}
+
+.gift-image img {
+    width: 100%;
+    max-width: 600px; /* control image size */
+    height: auto;
+
+  
+}
+
+.gift-content {
+    max-width: 550px;
+    text-align: left;
+    
+     padding: 60px; 
+   background-color: #e2f4e8;
+     height:  0 auto;
+}
+
+.gift-content h2 {
+    margin-bottom:15px;
+    font-size: 29px;
+    font-weight: 500;
+    color: #615e5e;
+    text-align: center;
+   font-weight: 700;
+  
+    letter-spacing: 0px;
+    line-height: 1.428;
+    border-bottom: 1px solid #edce87;  
+}
+
+.gift-content p {
+    margin-bottom: 20px;
+    line-height: 1.9;
+    color: #79848a;
+    text-align: center;
+    font-size: 16px !important;
+    font: inherit;
+}
+
+.gift-content button {
+    padding: 1px 30px;
+    font-size:  12px;
+    border: 1px solid #4c4c4c;
+    background: none;
+    cursor: pointer;
+    transition: 0.3s;
+font-size: 13PX;
+font-weight: 600PX;
+}
+
+.gift-content button:hover {
+ 
+   color: #c9a74d;
+  border-color: #c9a74d;
+   
+}
+.button{
+  
+  display: block;
+  margin: 0 auto; 
+}
+/* Responsive */
+@media (max-width: 768px) {
+    .gift-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .gift-content {
+        max-width: 90%;
+    }
+
+    .gift-image img {
+        max-width: 90%;
+    }
+}
+
+#container-card {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap:0%;
+  padding: 20px;
+}
+
+
+
+
+.content-1 {
+  width: 410px;
+ 
+  padding: 10px;
+  text-align: center;
+background-color: transparent;
+  display :grid;
+   grid-template-rows: auto 1fr auto;
+   gap: 0px;
+}
+
+
+.content-1 img {
+  width : 100%;
+  max-width: 450px;
+  height: 100%;
+  background-size: contain;
+}
+
+.content-1 h3 {
+  font-size: 20px;
+margin: 0px 20px ;
+ font-family: var(--common-heading) !important;
+   color: #666;
+   margin-top: 10px;
+}
+
+.content-1 p {
+  font-size: 18px;
+  color: #878787;
+  font-weight: 300;
+  font-family: "Montserrat", serif;
+
+  margin: 5px; /* 👈 yeh dono cards me equal spacing dega */
+  line-height: 1.5; /* text ko readable kare */
+}
+
+
+.button-1 {
+
+  display: inline-block;    
+  padding: 1px 20px;
+  border: 1px solid #444;
+  background: transparent;
+  color: #4c4c4c;;
+  font-size: 12px;
+  font-weight: 300;
+ font: inherit;
+font-family: Montserrat;
+        min-width: 180px;
+        min-height: fit-content;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 auto;          
+}
+
+    
+
+
+.button-1:hover {
+  color: #c9a74d;
+  border-color: #c9a74d;
+    background: transparent;
+
+}
+
+.section-new{
+ display: flex;
+margin-top: 30px;
+margin-left: 150px;
+margin-right: 50px;
+margin-bottom: 20px;
+}
+.gift-content-1{
+   max-width: 550px;
+    text-align: left;
+    
+     padding: 60px; 
+   background-color: #e2f4e8;
+     height:  0 auto;
+     
+}
+
+
+.h2-sec {
+    margin-bottom:15px;
+   font-size:  23px !important;
+    font-weight: 500;
+    color: #615e5e;
+    text-align: center;
+   font-weight: 700;
+  
+    letter-spacing: 0px;
+    line-height: 1.428;
+    border-bottom: 1px solid #edce87;  
+}
+
+.p-2 {
+    margin-bottom: 20px;
+    line-height: 1.9;
+    color: #79848a;
+    text-align: center;
+    font-size: 16px !important;
+    font: inherit;
+}
+
+.button-1 {
+    padding: 1px 20px;
+    font-size:  12px;
+    border: 1px solid #4c4c4c;
+    background: none;
+    cursor: pointer;
+    transition: 0.3s;
+font-size: 13PX;
+font-weight: 600PX;
+text-align: center;
+display: flex;
+align-items: center;
+min-width: 100px;
+}
+
+.images-row {
+  display: flex;
+  gap: 15px;            /* images ke beech space */
+  justify-content: left;  /* beech me karne ke liye */
+ margin: 10px  150px;
+
+}
+.row {
+width: 24%;
+height: auto;
+}
+
+
+.image-right-1 {
+  display: flex;
+  flex-direction: column; /* 👈 images column me */
+  gap: 0px;              /* images ke beech space */
+  align-items: flex-end; /* left align (optional) */
+  padding: 0;
+  margin: 0;
+  margin-top: -632px;
+}
+
+.image-column{
+  width: 40%;  /* size aap change kar sakte ho */
+  display: block;
+  margin-top: -23px;
+margin-right: 140px;
+ height: 20% ;
+
+}
+
+
