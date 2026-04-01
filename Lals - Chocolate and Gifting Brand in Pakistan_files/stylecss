@@ -1,0 +1,10 @@
+.flatpickr-day.flatpickr-disabled{
+    background-color:rgb(223 223 223) !important;
+    color: white !important;
+}
+.flatpickr-day{
+    border-radius: 0px !important;
+}
+.Polaris-Button--primary {
+    background-color:rgba(26, 26, 26,1)  !important;
+}
